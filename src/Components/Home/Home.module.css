@@ -1,0 +1,10 @@
+.secBg{
+    min-height: inherit;
+    background-color: var(--bg-primary);
+    color: var(--color-white);
+}
+
+.avatar{
+    width: 250px;
+    aspect-ratio: 1;
+}
