@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="container">
           <div className="text-center pt-4">
             <h2 className="text-uppercase">conatct section</h2>
-            <div>
+            <div className="d-inline-block px-3 star-icon">
               <i className="fas fa-star"></i>
             </div>
           </div>

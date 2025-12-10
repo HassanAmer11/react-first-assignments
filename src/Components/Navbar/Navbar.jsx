@@ -7,7 +7,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-main py-3">
         <div className="container">
           <Link className="navbar-brand " to={"/"}>
-            <h2 className="fw-bold">Start Framework</h2>
+            <h2 className="fw-bold text-uppercase">Start Framework</h2>
           </Link>
           <button
             className="navbar-toggler"

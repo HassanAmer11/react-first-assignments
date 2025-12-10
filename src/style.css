@@ -4,21 +4,14 @@
     --bg-nav: #2c3e50;
     --bg-primary: #1abc9c;
     --color-white: #fff;
-    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
-        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-primary: "Amatic SC", sans-serif;
-    --font-secondary: "Inter", sans-serif;
-    --animation-duration: 400ms;
+    --border-color: #2c3e50;
 }
 
-.bg-main {
-    background-color: var(--bg-nav);
-    color: var(--color-white)
-}
+/* ----------------------    Navbar    ------------------ */
 
 .nav-link {
     font-weight: bold;
+    text-transform: uppercase;
     color: var(--color-white)
 }
 
@@ -28,15 +21,41 @@
     border-radius: 0.5rem;
 }
 
+/* ----------------------    General    ------------------ */
 
-.main-color {
-    background-color: var(--bg-primary);
+.bg-main {
+    background-color: var(--bg-nav);
+    color: var(--color-white)
 }
 
+.star-icon {
+    position: relative;
+}
+
+.star-icon::after {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    width: 80px;
+    border: 2px solid;
+}
+
+.star-icon::before {
+    content: '';
+    position: absolute;
+    top: 40%;
+    right: 100%;
+    width: 80px;
+    border: 2px solid;
+}
+
+/* ----------------------    Layout    ------------------ */
 .layout {
     min-height: 85vh;
 }
 
+/* ----------------------    Footer    ------------------ */
 .icons .icon {
     border: 1px solid #fff;
     border-radius: 50%;
@@ -47,12 +66,14 @@
     justify-content: center;
 }
 
+/* ----------------------    About    ------------------ */
 .about-section{
     min-height: inherit;
     background-color: var(--bg-primary);
     color: var(--color-white);
 }
 
+/* ----------------------    Contact    ------------------ */
 .contact-section,.portfolio-section {
     height: 100%;
     background-color: var(--color-white);
@@ -64,6 +85,7 @@
     box-shadow: none;
 }
 
+/* ----------------------    Portfolio    ------------------ */
 .img-wrapper .overlay {
     opacity: 0;
     transition: all 0.3s ease-in-out;
@@ -77,4 +99,8 @@
 .img-popup{
     z-index: 999;
     min-height: 100vh;
+}
+
+.portofolio-head {
+    color: #2c3e50;
 }

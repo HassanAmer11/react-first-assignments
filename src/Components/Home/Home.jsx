@@ -12,7 +12,9 @@ export default function Home() {
         </div>
         <div className="d-flex flex-column align-items-center justify-content-center mt-4 gap-2">
           <h2 className="text-uppercase">start Framework</h2>
-          <i className="fas fa-star"></i>
+          <div className="d-inline-block px-3 star-icon">
+            <i className="fas fa-star"></i>
+          </div>
           <p>Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </section>

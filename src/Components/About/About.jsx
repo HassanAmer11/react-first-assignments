@@ -7,11 +7,11 @@ export default function About() {
         <div className="container">
           <div className="text-center">
             <h2 className="text-uppercase">about component</h2>
-            <div>
+            <div className="d-inline-block px-3 star-icon">
               <i className="fas fa-star"></i>
             </div>
           </div>
-          <div className="row">
+          <div className="row g-3">
             <div className="col-md-6">
               Freelancer is a free bootstrap theme created by Route. The
               download includes the complete source files including HTML, CSS,

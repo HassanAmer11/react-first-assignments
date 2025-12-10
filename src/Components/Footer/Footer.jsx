@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer className="bg-main py-5">
         <div className="container my-4">
-          <div className="row">
+          <div className="row g-5">
             <div className="col-md-4">
               <div className="location  text-center">
                 <h3>LOCATION</h3>
