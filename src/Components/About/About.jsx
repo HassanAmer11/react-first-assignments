@@ -6,7 +6,7 @@ export default function About() {
       <section className="about-section d-flex align-items-center justify-content-center">
         <div className="container">
           <div className="text-center">
-            <h2 className="text-uppercase">about component</h2>
+            <h2 className="text-uppercase fw-bold">about component</h2>
             <div className="d-inline-block px-3 star-icon">
               <i className="fas fa-star"></i>
             </div>

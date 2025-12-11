@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
       </footer>
       <div className="bg-dark text-light text-center text-capitalize py-3">
-        Copyright © Your Website 2021
+        Copyright © Your Website 2025
       </div>
     </>
   );

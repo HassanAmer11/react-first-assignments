@@ -18,7 +18,7 @@ export default function Portfolio() {
     return (
       <>
         <section className="portfolio-section">
-          <div className="text-center pt-4 portofolio-head">
+          <div className="text-center pt-4 section-head">
             <h2 className="text-uppercase">portfolio component</h2>
             <div className="d-inline-block px-3 star-icon">
               <i className="fas fa-star"></i>
